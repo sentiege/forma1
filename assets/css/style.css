@@ -32,3 +32,8 @@ select,input{padding:.4rem;border-radius:6px;border:1px solid #ccc;margin-bottom
 .glosario-item strong{color:var(--primary);}
 .breadcrumb{font-size:.85rem;color:var(--muted);margin-bottom:1rem;}
 .breadcrumb a{color:var(--primary);}
+.juris-banner{display:flex;align-items:center;gap:.8rem;background:#eef2f7;border-radius:8px;padding:.7rem 1rem;margin-bottom:1rem;font-size:.85rem;}
+.juris-banner img{height:28px;width:auto;border-radius:4px;}
+.juris-banner a{color:var(--primary);font-weight:600;text-decoration:none;}
+.juris-banner a:hover{text-decoration:underline;}
+.header-logo{height:26px;width:auto;border-radius:4px;margin-right:.6rem;vertical-align:middle;}
