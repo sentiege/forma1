@@ -1,28 +1,132 @@
 [
-  {"termino": "Acción penal pública", "definicion": "Ejercida de oficio por el Ministerio Público en representación del Estado.", "unidad": 2},
-  {"termino": "Acto procesal", "definicion": "Manifestación formal que impulsa o documenta el desarrollo del proceso.", "unidad": 6},
-  {"termino": "Competencia", "definicion": "Límite legal (material, territorial o funcional) dentro del cual un órgano ejerce jurisdicción.", "unidad": 4},
-  {"termino": "Contradicción", "definicion": "Principio que garantiza a ambas partes la posibilidad de conocer y refutar la prueba de la contraria.", "unidad": 8},
-  {"termino": "Criterio de oportunidad", "definicion": "Facultad reglada del fiscal para no ejercer o suspender la acción penal en casos determinados por ley.", "unidad": 2},
-  {"termino": "Debido proceso penal", "definicion": "Conjunto de garantías mínimas que aseguran un juicio justo, previo, público y con derecho de defensa.", "unidad": 1},
-  {"termino": "Defensa material", "definicion": "Derecho del propio imputado a defenderse personalmente en el proceso.", "unidad": 5},
-  {"termino": "Extinción de la acción penal", "definicion": "Causales que hacen cesar la potestad punitiva del Estado: prescripción, muerte, amnistía, entre otras.", "unidad": 2},
-  {"termino": "Imputado", "definicion": "Persona a quien se atribuye participación en un hecho punible, sujeto de derechos y garantías.", "unidad": 5},
-  {"termino": "Juicio previo", "definicion": "Nadie puede ser condenado sin un juicio previo fundado en ley anterior al hecho del proceso.", "unidad": 1},
-  {"termino": "Jurisdicción", "definicion": "Potestad estatal de juzgar y hacer ejecutar lo juzgado.", "unidad": 4},
-  {"termino": "Medidas sustitutivas", "definicion": "Alternativas menos gravosas a la prisión preventiva, como el arresto domiciliario o la cación.", "unidad": 7},
-  {"termino": "Ministerio Público", "definicion": "Órgano encargado de dirigir la investigación penal y ejercer la acción penal pública.", "unidad": 4},
-  {"termino": "Modelo compositivo", "definicion": "Enfoque que privilegia la reparación del conflicto sobre la sanción retributiva.", "unidad": 3},
-  {"termino": "Non bis in idem", "definicion": "Prohibición de perseguir penalmente más de una vez por el mismo hecho.", "unidad": 1},
-  {"termino": "Nulidad absoluta", "definicion": "Vicio que afecta garantías fundamentales y no admite convalidación.", "unidad": 6},
-  {"termino": "Nulidad relativa", "definicion": "Vicio subsanable que puede convalidarse si no se plantea oportunamente.", "unidad": 6},
-  {"termino": "Presunción de inocencia", "definicion": "Todo imputado se presume inocente hasta que una sentencia firme declare su culpabilidad.", "unidad": 1},
-  {"termino": "Prisión preventiva", "definicion": "Medida cautelar de carácter excepcional que restringe la libertad del imputado durante el proceso.", "unidad": 7},
-  {"termino": "Procedimiento abreviado", "definicion": "Mecanismo que permite resolver la causa sin juicio oral pleno, mediante acuerdo entre las partes.", "unidad": 3},
-  {"termino": "Proporcionalidad", "definicion": "Principio que exige que la medida cautelar sea adecuada y no exceda lo estrictamente necesario.", "unidad": 7},
-  {"termino": "Prueba indiciaria", "definicion": "Prueba que permite inferir un hecho a partir de indicios concordantes, sin evidencia directa.", "unidad": 8},
-  {"termino": "Punitivismo", "definicion": "Tendencia a responder a conflictos sociales mediante la expansión del derecho penal.", "unidad": 2},
-  {"termino": "Sana crítica racional", "definicion": "Sistema de valoración de la prueba basado en la lógica, la experiencia y la psicología, sin tarifas legales previas.", "unidad": 8},
-  {"termino": "Suspensión condicional del procedimiento", "definicion": "Suspende el proceso sujeto a condiciones, con posibilidad de extinción de la acción si se cumplen.", "unidad": 3},
-  {"termino": "Víctima", "definicion": "Sujeto procesal directamente ofendido por el hecho punible, con derecho a intervenir en el proceso.", "unidad": 5}
+  {
+    "termino": "Acción penal pública",
+    "definicion": "Ejercida de oficio por el Ministerio Público en representación del Estado (art. 14 CPP).",
+    "unidad": 2
+  },
+  {
+    "termino": "Acto procesal",
+    "definicion": "Manifestación formal que impulsa o documenta el desarrollo del proceso.",
+    "unidad": 6
+  },
+  {
+    "termino": "Competencia",
+    "definicion": "Límite legal (material, territorial o funcional) dentro del cual un órgano ejerce jurisdicción.",
+    "unidad": 4
+  },
+  {
+    "termino": "Criterio de oportunidad",
+    "definicion": "Facultad reglada del fiscal (art. 19 CPP) para no ejercer o suspender la acción penal en casos determinados por ley.",
+    "unidad": 2
+  },
+  {
+    "termino": "Debido proceso penal",
+    "definicion": "Conjunto de garantías mínimas que aseguran un juicio justo, previo, público y con derecho de defensa.",
+    "unidad": 1
+  },
+  {
+    "termino": "Defensa material",
+    "definicion": "Derecho del propio imputado a defenderse personalmente en el proceso.",
+    "unidad": 5
+  },
+  {
+    "termino": "Extinción de la acción penal",
+    "definicion": "Causales que hacen cesar la potestad punitiva del Estado: prescripción, muerte, amnistía, entre otras.",
+    "unidad": 2
+  },
+  {
+    "termino": "Imputado",
+    "definicion": "Persona (art. 75 CPP) a quien se atribuye participación en un hecho punible, sujeto de derechos y garantías.",
+    "unidad": 5
+  },
+  {
+    "termino": "Juicio previo",
+    "definicion": "Nadie puede ser condenado sin un juicio previo fundado en ley anterior al hecho del proceso (art. 1 CPP).",
+    "unidad": 1
+  },
+  {
+    "termino": "Jurisdicción",
+    "definicion": "Potestad estatal de juzgar y hacer ejecutar lo juzgado.",
+    "unidad": 4
+  },
+  {
+    "termino": "Libertad probatoria",
+    "definicion": "Principio (art. 173 CPP) por el cual todo hecho relevante puede probarse por cualquier medio, salvo excepciones legales.",
+    "unidad": 8
+  },
+  {
+    "termino": "Medidas sustitutivas",
+    "definicion": "Alternativas menos gravosas a la prisión preventiva, como el arresto domiciliario o la cación.",
+    "unidad": 7
+  },
+  {
+    "termino": "Ministerio Público",
+    "definicion": "Órgano (Ley N° 1562) encargado de dirigir la investigación penal y ejercer la acción penal pública.",
+    "unidad": 4
+  },
+  {
+    "termino": "Modelo compositivo",
+    "definicion": "Enfoque que privilegia la reparación del conflicto sobre la sanción retributiva.",
+    "unidad": 3
+  },
+  {
+    "termino": "Non bis in idem",
+    "definicion": "Prohibición de perseguir penalmente más de una vez por el mismo hecho.",
+    "unidad": 1
+  },
+  {
+    "termino": "Nulidad absoluta",
+    "definicion": "En el sistema paraguayo, vicio que lesiona una garantía constitucional; no admite convalidación y puede declararse de oficio (art. 12 CPP).",
+    "unidad": 6
+  },
+  {
+    "termino": "Nulidad relativa",
+    "definicion": "Regla general en el CPP paraguayo: vicio subsanable que puede convalidarse si no se plantea oportunamente.",
+    "unidad": 6
+  },
+  {
+    "termino": "Presunción de inocencia",
+    "definicion": "Todo imputado se presume inocente hasta que una sentencia firme declare su culpabilidad.",
+    "unidad": 1
+  },
+  {
+    "termino": "Prisión preventiva",
+    "definicion": "Medida cautelar excepcional (art. 242 CPP) que restringe la libertad del imputado durante el proceso, sujeta a tres requisitos concurrentes.",
+    "unidad": 7
+  },
+  {
+    "termino": "Procedimiento abreviado",
+    "definicion": "Mecanismo (arts. 420-421 CPP) que permite resolver la causa sin juicio oral pleno, mediante admisión del hecho y acuerdo entre las partes.",
+    "unidad": 3
+  },
+  {
+    "termino": "Proporcionalidad",
+    "definicion": "Principio que exige que la medida cautelar (art. 234 CPP) sea adecuada y no exceda lo estrictamente necesario.",
+    "unidad": 7
+  },
+  {
+    "termino": "Prueba indiciaria",
+    "definicion": "Prueba que permite inferir un hecho a partir de indicios concordantes, sin evidencia directa.",
+    "unidad": 8
+  },
+  {
+    "termino": "Punitivismo",
+    "definicion": "Tendencia a responder a conflictos sociales mediante la expansión del derecho penal.",
+    "unidad": 2
+  },
+  {
+    "termino": "Sana crítica racional",
+    "definicion": "Sistema de valoración de la prueba (art. 175 CPP) basado en la lógica, la ciencia y la experiencia, sin tarifas legales previas.",
+    "unidad": 8
+  },
+  {
+    "termino": "Suspensión condicional del procedimiento",
+    "definicion": "Suspende el proceso sujeto a condiciones, con posibilidad de extinción de la acción si se cumplen.",
+    "unidad": 3
+  },
+  {
+    "termino": "Víctima",
+    "definicion": "Sujeto procesal (art. 68 CPP) directamente ofendido por el hecho punible, con derecho a intervenir en el proceso.",
+    "unidad": 5
+  }
 ]
