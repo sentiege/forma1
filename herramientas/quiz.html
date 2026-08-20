@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quiz | Forma I - Derecho Penal</title>
+<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+<header>
+  <h1>Forma I - Derecho Penal</h1>
+  <nav>
+    <a href="../index.html">Inicio</a>
+    <a href="flashcards.html">Flashcards</a>
+    <a href="glosario.html">Glosario</a>
+  </nav>
+</header>
+<main>
+  <p class="breadcrumb"><a href="../index.html">&larr; Volver al inicio</a></p>
+  <h2>❓ Quiz de autoevaluación</h2>
+  <label for="filtro-unidad">Unidad:</label>
+  <select id="filtro-unidad"><option value="0">Todas las unidades</option></select>
+  <div class="progress"><div class="progress-bar" id="progress-bar"></div></div>
+  <div class="card" id="quiz-box"></div>
+  <p style="text-align:center" id="resultado"></p>
+</main>
+<footer>Escuela Judicial - Consejo de la Magistratura del Paraguay</footer>
+<script src="../assets/js/data.js"></script>
+<script>
+let banco = [];
+let preguntas = [];
+let idx = 0;
+let aciertos = 0;
+let respondida = false;
+
+function pintarPregunta(){
+  const box = document.getElementById('quiz-box');
+  if(idx >= preguntas.length){
+    box.innerHTML = `<h3>Resultado final</h3><p>Obtuviste ${aciertos} de ${preguntas.length} correctas.</p>`;
+    document.getElementById('progress-bar').style.width='100%';
+    return;
+  }
+  const p = preguntas[idx];
+  respondida = false;
+  box.innerHTML = `<span class="badge">Unidad ${p.unidad}</span><h3>${p.pregunta}</h3>` +
+    p.opciones.map((op,i)=>`<button class="quiz-option" data-i="${i}">${op}</button>`).join('');
+  document.getElementById('progress-bar').style.width = (idx/preguntas.length*100)+'%';
+  box.querySelectorAll('.quiz-option').forEach(btn=>{
+    btn.onclick = ()=>{
+      if(respondida) return;
+      respondida = true;
+      const chosen = parseInt(btn.dataset.i);
+      box.querySelectorAll('.quiz-option').forEach((b,i)=>{
+        if(i===p.respuesta) b.classList.add('correct');
+        else if(i===chosen) b.classList.add('incorrect');
+      });
+      if(chosen===p.respuesta) aciertos++;
+      setTimeout(()=>{ idx++; pintarPregunta(); }, 900);
+    };
+  });
+}
+
+document.getElementById('filtro-unidad').onchange = (e)=>{
+  const val = parseInt(e.target.value);
+  preguntas = val===0 ? banco.slice() : banco.filter(x=>x.unidad===val);
+  idx=0; aciertos=0;
+  pintarPregunta();
+};
+
+loadJSON('../assets/data/quiz.json').then(data=>{
+  banco = data.preguntas;
+  preguntas = banco.slice();
+  const sel = document.getElementById('filtro-unidad');
+  for(let i=1;i<=8;i++){
+    const opt = document.createElement('option');
+    opt.value=i; opt.textContent='Unidad '+i;
+    sel.appendChild(opt);
+  }
+  pintarPregunta();
+});
+</script>
+</body>
+</html>

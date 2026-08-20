@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Glosario | Forma I - Derecho Penal</title>
+<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+<header>
+  <h1>Forma I - Derecho Penal</h1>
+  <nav>
+    <a href="../index.html">Inicio</a>
+    <a href="flashcards.html">Flashcards</a>
+    <a href="quiz.html">Quiz</a>
+  </nav>
+</header>
+<main>
+  <p class="breadcrumb"><a href="../index.html">&larr; Volver al inicio</a></p>
+  <h2>📖 Glosario procesal penal</h2>
+  <input type="text" id="buscador" placeholder="Buscar término..." style="width:100%">
+  <div class="card" id="lista-glosario"></div>
+</main>
+<footer>Escuela Judicial - Consejo de la Magistratura del Paraguay</footer>
+<script src="../assets/js/data.js"></script>
+<script>
+let terminos = [];
+function render(filtro=''){
+  const lista = document.getElementById('lista-glosario');
+  const f = terminos.filter(t=>t.termino.toLowerCase().includes(filtro.toLowerCase()));
+  lista.innerHTML = f.map(t=>`<div class="glosario-item"><strong>${t.termino}</strong> (Unidad ${t.unidad}) — ${t.definicion}</div>`).join('') || '<p>Sin resultados.</p>';
+}
+document.getElementById('buscador').oninput = (e)=>render(e.target.value);
+loadJSON('../assets/data/glosario.json').then(data=>{ terminos = data; render(); });
+</script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+{
+  "preguntas": [
+    {"unidad":1,"pregunta":"¿Qué artículos del CPP reglamentan el debido proceso penal conforme a la CN y el Pacto de San José?","opciones":["Artículos 1 a 13","Artículos 50 a 60","Artículos 100 a 110","Artículos 200 a 210"],"respuesta":0},
+    {"unidad":1,"pregunta":"¿Qué garantiza el principio de 'juicio previo'?","opciones":["Que se puede condenar sin proceso si hay confesión","Que nadie puede ser condenado sin un juicio fundado en ley anterior","Que el fiscal decide la condena","Que la policía dicta sentencia"],"respuesta":1},
+    {"unidad":2,"pregunta":"¿Qué principio rige -con matices- la acción penal pública, a diferencia del proceso civil?","opciones":["Disponibilidad plena","Indisponibilidad","Oralidad absoluta","Gratuidad total"],"respuesta":1},
+    {"unidad":2,"pregunta":"¿Cómo se denomina la instrumentalización del proceso penal con fines ajenos a la justicia?","opciones":["Criterio de oportunidad","Lawfare o guerra jurídica","Extinción de la acción","Conciliación"],"respuesta":1},
+    {"unidad":3,"pregunta":"¿Cuál NO es una salida alternativa al procedimiento ordinario?","opciones":["Procedimiento abreviado","Suspensión condicional del procedimiento","Prisión preventiva","Conciliación"],"respuesta":2},
+    {"unidad":3,"pregunta":"La subutilización de las salidas alternativas, ¿a qué dos posibles causas se atribuye en el módulo?","opciones":["Norma o gestión","Clima o economía","Distancia o idioma","Género o edad"],"respuesta":0},
+    {"unidad":4,"pregunta":"¿Qué órgano dirige la investigación penal y ejerce la acción penal pública?","opciones":["Policía Nacional","Ministerio Público","Defensoría Pública","Poder Legislativo"],"respuesta":1},
+    {"unidad":4,"pregunta":"¿Qué diferencia a la competencia de la jurisdicción?","opciones":["Son sinónimos","La competencia es el límite legal dentro del cual se ejerce la jurisdicción","La jurisdicción es solo para jueces civiles","La competencia decide la pena"],"respuesta":1},
+    {"unidad":5,"pregunta":"¿Qué rol tenía tradicionalmente la víctima en el modelo inquisitivo clásico?","opciones":["Sujeto procesal activo","Rol pasivo","Directora de la investigación","Juez del caso"],"respuesta":1},
+    {"unidad":5,"pregunta":"¿Qué es la defensa material?","opciones":["La defensa que ejerce el abogado","El derecho del imputado a defenderse personalmente","La defensa de la víctima","La defensa del fiscal"],"respuesta":1},
+    {"unidad":6,"pregunta":"¿Qué tipo de nulidad afecta garantías fundamentales y es insanable?","opciones":["Relativa","Absoluta","Convalidable","Presunta"],"respuesta":1},
+    {"unidad":6,"pregunta":"¿Qué distingue a una nulidad relativa?","opciones":["Nunca puede subsanarse","Puede convalidarse si no se plantea oportunamente","Es siempre de oficio","Anula todo el proceso automáticamente"],"respuesta":1},
+    {"unidad":7,"pregunta":"¿Cuál es la regla constitucional respecto a la prisión preventiva?","opciones":["Debe ser la regla general","Debe ser excepcional","Es obligatoria en todos los casos","No está regulada"],"respuesta":1},
+    {"unidad":7,"pregunta":"¿Qué principio exige que la medida cautelar no exceda lo necesario?","opciones":["Proporcionalidad","Publicidad","Oralidad","Congruencia"],"respuesta":0},
+    {"unidad":8,"pregunta":"¿Bajo qué sistema se valora la prueba en el modelo acusatorio?","opciones":["Tarifa legal","Sana crítica racional","Íntima convicción sin motivación","Prueba tasada"],"respuesta":1},
+    {"unidad":8,"pregunta":"¿Qué rol asume el imputado respecto de la prueba en el modelo acusatorio?","opciones":["Mero objeto de investigación","Contralor activo de la prueba","No tiene ningún rol","Solo puede confesar"],"respuesta":1}
+  ]
+}

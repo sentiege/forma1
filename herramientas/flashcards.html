@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Flashcards | Forma I - Derecho Penal</title>
+<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+<header>
+  <h1>Forma I - Derecho Penal</h1>
+  <nav>
+    <a href="../index.html">Inicio</a>
+    <a href="quiz.html">Quiz</a>
+    <a href="glosario.html">Glosario</a>
+  </nav>
+</header>
+<main>
+  <p class="breadcrumb"><a href="../index.html">&larr; Volver al inicio</a></p>
+  <h2>🧠 Flashcards de repaso</h2>
+  <label for="filtro-unidad">Filtrar por unidad:</label>
+  <select id="filtro-unidad"><option value="0">Todas las unidades</option></select>
+  <div class="progress"><div class="progress-bar" id="progress-bar"></div></div>
+  <div class="flashcard" id="flashcard">Cargando...</div>
+  <p style="text-align:center">
+    <button id="btn-anterior">&larr; Anterior</button>
+    <button id="btn-voltear">Voltear</button>
+    <button id="btn-siguiente">Siguiente &rarr;</button>
+  </p>
+  <p style="text-align:center;color:#5a6472" id="contador"></p>
+</main>
+<footer>Escuela Judicial - Consejo de la Magistratura del Paraguay</footer>
+<script src="../assets/js/data.js"></script>
+<script>
+let mazo = [];
+let filtrado = [];
+let idx = 0;
+let volteada = false;
+
+function render(){
+  const card = document.getElementById('flashcard');
+  if(filtrado.length===0){ card.textContent='No hay tarjetas para esta unidad.'; return; }
+  const item = filtrado[idx];
+  card.textContent = volteada ? item.definicion : item.termino;
+  document.getElementById('contador').textContent = `${idx+1} / ${filtrado.length} — Unidad ${item.unidad}`;
+  document.getElementById('progress-bar').style.width = ((idx+1)/filtrado.length*100)+'%';
+}
+
+document.getElementById('btn-voltear').onclick = ()=>{ volteada=!volteada; render(); };
+document.getElementById('flashcard').onclick = ()=>{ volteada=!volteada; render(); };
+document.getElementById('btn-siguiente').onclick = ()=>{ idx=(idx+1)%filtrado.length; volteada=false; render(); };
+document.getElementById('btn-anterior').onclick = ()=>{ idx=(idx-1+filtrado.length)%filtrado.length; volteada=false; render(); };
+document.getElementById('filtro-unidad').onchange = (e)=>{
+  const val = parseInt(e.target.value);
+  filtrado = val===0 ? mazo : mazo.filter(x=>x.unidad===val);
+  idx=0; volteada=false; render();
+};
+
+loadJSON('../assets/data/glosario.json').then(data=>{
+  mazo = data;
+  filtrado = data;
+  const sel = document.getElementById('filtro-unidad');
+  for(let i=1;i<=8;i++){
+    const opt = document.createElement('option');
+    opt.value=i; opt.textContent='Unidad '+i;
+    sel.appendChild(opt);
+  }
+  render();
+});
+</script>
+</body>
+</html>
