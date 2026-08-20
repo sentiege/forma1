@@ -1,20 +1,323 @@
 {
   "preguntas": [
-    {"unidad":1,"pregunta":"¿Qué artículos del CPP reglamentan el debido proceso penal conforme a la CN y el Pacto de San José?","opciones":["Artículos 1 a 13","Artículos 50 a 60","Artículos 100 a 110","Artículos 200 a 210"],"respuesta":0},
-    {"unidad":1,"pregunta":"¿Qué garantiza el principio de 'juicio previo'?","opciones":["Que se puede condenar sin proceso si hay confesión","Que nadie puede ser condenado sin un juicio fundado en ley anterior","Que el fiscal decide la condena","Que la policía dicta sentencia"],"respuesta":1},
-    {"unidad":2,"pregunta":"¿Qué principio rige -con matices- la acción penal pública, a diferencia del proceso civil?","opciones":["Disponibilidad plena","Indisponibilidad","Oralidad absoluta","Gratuidad total"],"respuesta":1},
-    {"unidad":2,"pregunta":"¿Cómo se denomina la instrumentalización del proceso penal con fines ajenos a la justicia?","opciones":["Criterio de oportunidad","Lawfare o guerra jurídica","Extinción de la acción","Conciliación"],"respuesta":1},
-    {"unidad":3,"pregunta":"¿Cuál NO es una salida alternativa al procedimiento ordinario?","opciones":["Procedimiento abreviado","Suspensión condicional del procedimiento","Prisión preventiva","Conciliación"],"respuesta":2},
-    {"unidad":3,"pregunta":"La subutilización de las salidas alternativas, ¿a qué dos posibles causas se atribuye en el módulo?","opciones":["Norma o gestión","Clima o economía","Distancia o idioma","Género o edad"],"respuesta":0},
-    {"unidad":4,"pregunta":"¿Qué órgano dirige la investigación penal y ejerce la acción penal pública?","opciones":["Policía Nacional","Ministerio Público","Defensoría Pública","Poder Legislativo"],"respuesta":1},
-    {"unidad":4,"pregunta":"¿Qué diferencia a la competencia de la jurisdicción?","opciones":["Son sinónimos","La competencia es el límite legal dentro del cual se ejerce la jurisdicción","La jurisdicción es solo para jueces civiles","La competencia decide la pena"],"respuesta":1},
-    {"unidad":5,"pregunta":"¿Qué rol tenía tradicionalmente la víctima en el modelo inquisitivo clásico?","opciones":["Sujeto procesal activo","Rol pasivo","Directora de la investigación","Juez del caso"],"respuesta":1},
-    {"unidad":5,"pregunta":"¿Qué es la defensa material?","opciones":["La defensa que ejerce el abogado","El derecho del imputado a defenderse personalmente","La defensa de la víctima","La defensa del fiscal"],"respuesta":1},
-    {"unidad":6,"pregunta":"¿Qué tipo de nulidad afecta garantías fundamentales y es insanable?","opciones":["Relativa","Absoluta","Convalidable","Presunta"],"respuesta":1},
-    {"unidad":6,"pregunta":"¿Qué distingue a una nulidad relativa?","opciones":["Nunca puede subsanarse","Puede convalidarse si no se plantea oportunamente","Es siempre de oficio","Anula todo el proceso automáticamente"],"respuesta":1},
-    {"unidad":7,"pregunta":"¿Cuál es la regla constitucional respecto a la prisión preventiva?","opciones":["Debe ser la regla general","Debe ser excepcional","Es obligatoria en todos los casos","No está regulada"],"respuesta":1},
-    {"unidad":7,"pregunta":"¿Qué principio exige que la medida cautelar no exceda lo necesario?","opciones":["Proporcionalidad","Publicidad","Oralidad","Congruencia"],"respuesta":0},
-    {"unidad":8,"pregunta":"¿Bajo qué sistema se valora la prueba en el modelo acusatorio?","opciones":["Tarifa legal","Sana crítica racional","Íntima convicción sin motivación","Prueba tasada"],"respuesta":1},
-    {"unidad":8,"pregunta":"¿Qué rol asume el imputado respecto de la prueba en el modelo acusatorio?","opciones":["Mero objeto de investigación","Contralor activo de la prueba","No tiene ningún rol","Solo puede confesar"],"respuesta":1}
+    {
+      "unidad": 1,
+      "pregunta": "¿Qué artículos del CPP reglamentan el debido proceso penal conforme a la CN y el Pacto de San José?",
+      "opciones": [
+        "Artículos 1 a 13",
+        "Artículos 50 a 60",
+        "Artículos 100 a 110",
+        "Artículos 200 a 210"
+      ],
+      "respuesta": 0
+    },
+    {
+      "unidad": 1,
+      "pregunta": "¿Qué garantiza el principio de 'juicio previo'?",
+      "opciones": [
+        "Que se puede condenar sin proceso si hay confesión",
+        "Que nadie puede ser condenado sin un juicio fundado en ley anterior",
+        "Que el fiscal decide la condena",
+        "Que la policía dicta sentencia"
+      ],
+      "respuesta": 1
+    },
+    {
+      "unidad": 2,
+      "pregunta": "¿Qué principio rige -con matices- la acción penal pública, a diferencia del proceso civil?",
+      "opciones": [
+        "Disponibilidad plena",
+        "Indisponibilidad",
+        "Oralidad absoluta",
+        "Gratuidad total"
+      ],
+      "respuesta": 1
+    },
+    {
+      "unidad": 2,
+      "pregunta": "¿Cómo se denomina la instrumentalización del proceso penal con fines ajenos a la justicia?",
+      "opciones": [
+        "Criterio de oportunidad",
+        "Lawfare o guerra jurídica",
+        "Extinción de la acción",
+        "Conciliación"
+      ],
+      "respuesta": 1
+    },
+    {
+      "unidad": 3,
+      "pregunta": "¿Cuál NO es una salida alternativa al procedimiento ordinario?",
+      "opciones": [
+        "Procedimiento abreviado",
+        "Suspensión condicional del procedimiento",
+        "Prisión preventiva",
+        "Conciliación"
+      ],
+      "respuesta": 2
+    },
+    {
+      "unidad": 3,
+      "pregunta": "La subutilización de las salidas alternativas, ¿a qué dos posibles causas se atribuye en el módulo?",
+      "opciones": [
+        "Norma o gestión",
+        "Clima o economía",
+        "Distancia o idioma",
+        "Género o edad"
+      ],
+      "respuesta": 0
+    },
+    {
+      "unidad": 4,
+      "pregunta": "¿Qué órgano dirige la investigación penal y ejerce la acción penal pública?",
+      "opciones": [
+        "Policía Nacional",
+        "Ministerio Público",
+        "Defensoría Pública",
+        "Poder Legislativo"
+      ],
+      "respuesta": 1
+    },
+    {
+      "unidad": 4,
+      "pregunta": "¿Qué diferencia a la competencia de la jurisdicción?",
+      "opciones": [
+        "Son sinónimos",
+        "La competencia es el límite legal dentro del cual se ejerce la jurisdicción",
+        "La jurisdicción es solo para jueces civiles",
+        "La competencia decide la pena"
+      ],
+      "respuesta": 1
+    },
+    {
+      "unidad": 5,
+      "pregunta": "¿Qué rol tenía tradicionalmente la víctima en el modelo inquisitivo clásico?",
+      "opciones": [
+        "Sujeto procesal activo",
+        "Rol pasivo",
+        "Directora de la investigación",
+        "Juez del caso"
+      ],
+      "respuesta": 1
+    },
+    {
+      "unidad": 5,
+      "pregunta": "¿Qué es la defensa material?",
+      "opciones": [
+        "La defensa que ejerce el abogado",
+        "El derecho del imputado a defenderse personalmente",
+        "La defensa de la víctima",
+        "La defensa del fiscal"
+      ],
+      "respuesta": 1
+    },
+    {
+      "unidad": 6,
+      "pregunta": "¿Qué tipo de nulidad afecta garantías fundamentales y es insanable?",
+      "opciones": [
+        "Relativa",
+        "Absoluta",
+        "Convalidable",
+        "Presunta"
+      ],
+      "respuesta": 1
+    },
+    {
+      "unidad": 6,
+      "pregunta": "¿Qué distingue a una nulidad relativa?",
+      "opciones": [
+        "Nunca puede subsanarse",
+        "Puede convalidarse si no se plantea oportunamente",
+        "Es siempre de oficio",
+        "Anula todo el proceso automáticamente"
+      ],
+      "respuesta": 1
+    },
+    {
+      "unidad": 7,
+      "pregunta": "¿Cuál es la regla constitucional respecto a la prisión preventiva?",
+      "opciones": [
+        "Debe ser la regla general",
+        "Debe ser excepcional",
+        "Es obligatoria en todos los casos",
+        "No está regulada"
+      ],
+      "respuesta": 1
+    },
+    {
+      "unidad": 7,
+      "pregunta": "¿Qué principio exige que la medida cautelar no exceda lo necesario?",
+      "opciones": [
+        "Proporcionalidad",
+        "Publicidad",
+        "Oralidad",
+        "Congruencia"
+      ],
+      "respuesta": 0
+    },
+    {
+      "unidad": 8,
+      "pregunta": "¿Bajo qué sistema se valora la prueba en el modelo acusatorio?",
+      "opciones": [
+        "Tarifa legal",
+        "Sana crítica racional",
+        "Íntima convicción sin motivación",
+        "Prueba tasada"
+      ],
+      "respuesta": 1
+    },
+    {
+      "unidad": 8,
+      "pregunta": "¿Qué rol asume el imputado respecto de la prueba en el modelo acusatorio?",
+      "opciones": [
+        "Mero objeto de investigación",
+        "Contralor activo de la prueba",
+        "No tiene ningún rol",
+        "Solo puede confesar"
+      ],
+      "respuesta": 1
+    },
+    {
+      "unidad": 1,
+      "pregunta": "¿Qué artículo del CPP consagra el principio de Juicio Previo?",
+      "opciones": [
+        "Artículo 1",
+        "Artículo 68",
+        "Artículo 173",
+        "Artículo 242"
+      ],
+      "respuesta": 0
+    },
+    {
+      "unidad": 2,
+      "pregunta": "¿Qué artículo del CPP regula el criterio de oportunidad?",
+      "opciones": [
+        "Artículo 14",
+        "Artículo 18",
+        "Artículo 19",
+        "Artículo 75"
+      ],
+      "respuesta": 2
+    },
+    {
+      "unidad": 3,
+      "pregunta": "¿En qué artículos del CPP se regula el procedimiento abreviado?",
+      "opciones": [
+        "Artículos 1-13",
+        "Artículos 68-75",
+        "Artículos 173-175",
+        "Artículos 420-421"
+      ],
+      "respuesta": 3
+    },
+    {
+      "unidad": 3,
+      "pregunta": "Según la jurisprudencia de la Sala Penal de la CSJ, la admisión del hecho en el procedimiento abreviado, ¿vincula automáticamente al juez a condenar?",
+      "opciones": [
+        "Sí, siempre debe condenar",
+        "No, puede incluso absolver si el análisis de fondo no sostiene la acusación",
+        "Solo si la víctima lo autoriza",
+        "Solo en delitos graves"
+      ],
+      "respuesta": 1
+    },
+    {
+      "unidad": 4,
+      "pregunta": "¿Qué ley organiza al Ministerio Público en Paraguay?",
+      "opciones": [
+        "Ley N° 1286/98",
+        "Ley N° 1/89",
+        "Ley N° 1562",
+        "Ley N° 609"
+      ],
+      "respuesta": 2
+    },
+    {
+      "unidad": 5,
+      "pregunta": "¿Qué artículo del CPP enumera los derechos de la víctima?",
+      "opciones": [
+        "Artículo 68",
+        "Artículo 75",
+        "Artículo 234",
+        "Artículo 310"
+      ],
+      "respuesta": 0
+    },
+    {
+      "unidad": 5,
+      "pregunta": "¿Qué artículo del CPP consagra las garantías del imputado?",
+      "opciones": [
+        "Artículo 14",
+        "Artículo 68",
+        "Artículo 75",
+        "Artículo 235"
+      ],
+      "respuesta": 2
+    },
+    {
+      "unidad": 6,
+      "pregunta": "En el sistema procesal penal paraguayo, ¿cuál es la regla general sobre las nulidades?",
+      "opciones": [
+        "Todas son absolutas por defecto",
+        "Todas son relativas, salvo que lesionen una garantía constitucional",
+        "No existen nulidades en materia penal",
+        "Solo el fiscal puede plantearlas"
+      ],
+      "respuesta": 1
+    },
+    {
+      "unidad": 6,
+      "pregunta": "¿Qué artículo del CPP prevé la excepción que habilita declarar una nulidad de oficio?",
+      "opciones": [
+        "Artículo 12",
+        "Artículo 68",
+        "Artículo 175",
+        "Artículo 242"
+      ],
+      "respuesta": 0
+    },
+    {
+      "unidad": 7,
+      "pregunta": "¿Qué artículo del CPP establece los tres requisitos concurrentes para decretar la prisión preventiva?",
+      "opciones": [
+        "Artículo 19",
+        "Artículo 234",
+        "Artículo 242",
+        "Artículo 420"
+      ],
+      "respuesta": 2
+    },
+    {
+      "unidad": 7,
+      "pregunta": "¿Qué artículo del CPP prohíbe la prisión preventiva en hechos con pena no privativa de libertad o inferior a un año?",
+      "opciones": [
+        "Artículo 235",
+        "Artículo 237",
+        "Artículo 242",
+        "Artículo 310"
+      ],
+      "respuesta": 1
+    },
+    {
+      "unidad": 8,
+      "pregunta": "¿Qué artículo del CPP consagra el principio de libertad probatoria?",
+      "opciones": [
+        "Artículo 68",
+        "Artículo 173",
+        "Artículo 175",
+        "Artículo 234"
+      ],
+      "respuesta": 1
+    },
+    {
+      "unidad": 8,
+      "pregunta": "¿Qué artículo del CPP establece la valoración de la prueba conforme a la sana crítica racional?",
+      "opciones": [
+        "Artículo 14",
+        "Artículo 173",
+        "Artículo 175",
+        "Artículo 242"
+      ],
+      "respuesta": 2
+    }
   ]
 }
