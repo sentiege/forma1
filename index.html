@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Forma I - Derecho Penal | Repaso Segundo Ciclo</title>
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<header>
+  <h1>Instituciones Fundamentales del Derecho Penal - Forma I</h1>
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="herramientas/flashcards.html">Flashcards</a>
+    <a href="herramientas/quiz.html">Quiz</a>
+    <a href="herramientas/glosario.html">Glosario</a>
+  </nav>
+</header>
+<main>
+  <section class="card">
+    <span class="badge">Consejo de la Magistratura - Escuela Judicial</span>
+    <p><strong>Programa:</strong> Formación Inicial para la Función Judicial &middot; <strong>Ciclo:</strong> Segundo &middot; <strong>Fuero:</strong> Penal &middot; <strong>Carga horaria:</strong> 40 horas</p>
+    <p id="justificacion">Cargando justificación del módulo...</p>
+  </section>
+
+  <section class="card">
+    <h2>Competencias del módulo</h2>
+    <div id="competencias"></div>
+  </section>
+
+  <section>
+    <h2>Unidades de aprendizaje</h2>
+    <div class="unidad-grid" id="unidades-grid"></div>
+  </section>
+
+  <section class="card">
+    <h2>Herramientas didácticas</h2>
+    <div class="tools-grid">
+      <div class="card tool-card">
+        <h3>🧠 Flashcards</h3>
+        <p>Memorizá términos clave de cada unidad.</p>
+        <a href="herramientas/flashcards.html">Ir a Flashcards</a>
+      </div>
+      <div class="card tool-card">
+        <h3>❓ Quiz de repaso</h3>
+        <p>Autoevaluación por unidad con corrección inmediata.</p>
+        <a href="herramientas/quiz.html">Ir al Quiz</a>
+      </div>
+      <div class="card tool-card">
+        <h3>📖 Glosario</h3>
+        <p>Buscá definiciones de términos procesales penales.</p>
+        <a href="herramientas/glosario.html">Ir al Glosario</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>Bibliografía</h2>
+    <ul id="bibliografia"></ul>
+  </section>
+</main>
+<footer>Escuela Judicial - Consejo de la Magistratura del Paraguay &middot; Sitio de repaso elaborado por el estudiante para uso académico</footer>
+
+<script src="assets/js/data.js"></script>
+<script>
+loadJSON('assets/data/contenido.json').then(data=>{
+  document.getElementById('justificacion').textContent = data.justificacion;
+
+  const comp = document.getElementById('competencias');
+  comp.innerHTML = '<h4>Genéricas</h4><ul>' + data.competencias_genericas.map(c=>`<li>${c}</li>`).join('') +
+    '</ul><h4>Específicas</h4><ul>' + data.competencias_especificas.map(c=>`<li>${c}</li>`).join('') + '</ul>';
+
+  const grid = document.getElementById('unidades-grid');
+  grid.innerHTML = data.unidades.map(u => `
+    <div class="card unidad-card">
+      <span class="badge">Unidad ${u.id}</span>
+      <h3>${u.titulo}</h3>
+      <a href="unidad.html?u=${u.id}">Leer contenido &rarr;</a>
+    </div>
+  `).join('');
+
+  const bib = document.getElementById('bibliografia');
+  bib.innerHTML = data.bibliografia.map(b=>`<li>${b}</li>`).join('');
+});
+</script>
+</body>
+</html>

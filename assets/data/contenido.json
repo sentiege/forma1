@@ -1,0 +1,157 @@
+{
+  "modulo": {
+    "programa": "Formación Inicial para la Función Judicial",
+    "modulo": "Instituciones Fundamentales del Derecho Penal de Forma I",
+    "ciclo": "Segundo",
+    "fuero": "Penal",
+    "caracter": "Obligatorio",
+    "carga_horaria": "40 horas",
+    "institucion": "Consejo de la Magistratura - Escuela Judicial",
+    "fecha_actualizacion": "Abril 2025"
+  },
+  "justificacion": "Por mucho tiempo se ha insistido que el derecho procesal penal no es más que una herramienta de aplicación del derecho sustantivo, afirmación simplista que banaliza el proceso penal y sus presupuestos, al punto que desde esta afirmación se pueden conjeturar respuestas similares al modelo inquisitorial, cuando el modelo propugnado por la Constitución y el Código Procesal Penal es acusatorio. Es fundamental reinstaurar el discurso del debido proceso penal sobre estándares republicanos y con una fuerte influencia de los principios minimalistas del ius puniendi estatal, evaluando tres niveles: el análisis de lo normado en la CN y el CPP, la praxis o aplicación de las normas procesales con comparaciones en el sistema convencional regional, y la autoevaluación sobre los problemas y distorsiones observados en la casuística.",
+  "competencias_genericas": [
+    "Ajusta su conducta a las normas jurídicas y éticas.",
+    "Respeta, protege y promueve los derechos humanos.",
+    "Usa tecnologías de la información y la comunicación.",
+    "Aplica estrategias de autoaprendizaje identificando el nivel del problema operativo.",
+    "Trabaja colaborativamente en equipos multidisciplinarios."
+  ],
+  "competencias_especificas": [
+    "Manejo de los presupuestos constitucionales y legales del debido proceso penal.",
+    "Utiliza con distingos efectivos las etapas del procedimiento ordinario.",
+    "Reconoce la función limitadora al poder punitivo del Estado de los principios constitucionales del derecho procesal penal.",
+    "Distingue la función del ejercicio de la acción penal pública y las alternativas de solución anticipada de causas penales.",
+    "Identifica los problemas teóricos y prácticos de cada etapa del procedimiento ordinario.",
+    "Identifica la naturaleza de los recursos en el proceso penal frente a otras materias."
+  ],
+  "estrategias_didacticas": "Metodología eminentemente práctica con participación activa del estudiante, técnicas expositiva e interrogativa, uso de plataformas Zoom, Google Meet y Moodle para materiales, tareas y foros de discusión.",
+  "bibliografia": [
+    "Binder, Alberto: Introducción al Derecho Procesal Penal, Ed. Ad-Hoc, Buenos Aires, 1997.",
+    "Constitución Nacional de la República del Paraguay.",
+    "Código Procesal Penal (Ley N° 1286/98).",
+    "Ley N° 1/89 'Pacto de San José de Costa Rica'.",
+    "Manuales y códigos procesales comentados nacionales."
+  ],
+  "unidades": [
+    {
+      "id": 1,
+      "titulo": "Los presupuestos constitucionales del debido proceso penal y la reglamentación de la garantía al debido proceso penal de la CN en el CPP",
+      "objetivos": [
+        "Conocer el contenido de la CN respecto al alcance del debido proceso penal y la necesidad de que los operadores de justicia operen directamente con dicho contenido.",
+        "Analizar la garantía que postula la CN y el Pacto de San José de Costa Rica en la reglamentación del CPP (artículos 1-13 del CPP)."
+      ],
+      "lectura": "El debido proceso penal es el conjunto de garantías constitucionales y convencionales que limitan el poder punitivo del Estado y protegen al justiciable frente al proceso penal. La Constitución Nacional y el Pacto de San José de Costa Rica (Ley N° 1/89) irradian su contenido sobre los artículos 1 al 13 del Código Procesal Penal, que consagran principios como: legalidad del proceso, juicio previo, presunción de inocencia, inviolabilidad de la defensa, non bis in idem, e independencia judicial. El desafío formativo consiste en que los operadores no memoricen la norma sino que la apliquen directamente como estándar interpretativo en cada acto procesal, evitando prácticas que remiten -aun sin declararlo- al modelo inquisitivo.",
+      "terminos": [
+        {"termino": "Debido proceso penal", "definicion": "Conjunto de garantías mínimas que aseguran un juicio justo, previo, público y con derecho de defensa."},
+        {"termino": "Juicio previo", "definicion": "Nadie puede ser condenado sin un juicio previo fundado en ley anterior al hecho del proceso."},
+        {"termino": "Presunción de inocencia", "definicion": "Todo imputado se presume inocente hasta que una sentencia firme declare su culpabilidad."},
+        {"termino": "Non bis in idem", "definicion": "Prohibición de perseguir penalmente más de una vez por el mismo hecho."}
+      ]
+    },
+    {
+      "id": 2,
+      "titulo": "El régimen de la acción penal, las salidas alternativas a la misma y la extinción de la acción penal",
+      "objetivos": [
+        "Diferenciar explícitamente el modelo de proceso civil u otros procesos escritos y la clasificación de las formas de ejercicio.",
+        "Distinguir las posibilidades procesales abiertas por el régimen de la acción penal y las variantes del sistema positivo respecto a la indisponibilidad de la acción.",
+        "Identificar como amenaza al estado de derecho la guerra jurídica y el punitivismo."
+      ],
+      "lectura": "La acción penal puede clasificarse en pública (de oficio o dependiente de instancia de parte) y privada, según el bien jurídico afectado y la política criminal del Estado. A diferencia del proceso civil, donde impera la disponibilidad plena del derecho, en materia penal rige -con matices- el principio de indisponibilidad, atenuado por criterios de oportunidad reglados que habilitan salidas alternativas (suspensión condicional, criterio de oportunidad, conciliación) y formas de extinción de la acción (prescripción, muerte del imputado, amnistía). El módulo advierte sobre dos fenómenos distorsivos contemporáneos: el punitivismo (uso expansivo e ineficaz del derecho penal como respuesta social) y la denominada 'guerra jurídica' (lawfare), que instrumentaliza el proceso penal con fines ajenos a la justicia.",
+      "terminos": [
+        {"termino": "Acción penal pública", "definicion": "Ejercida de oficio por el Ministerio Público en representación del Estado."},
+        {"termino": "Criterio de oportunidad", "definicion": "Facultad reglada del fiscal para no ejercer o suspender la acción penal en casos determinados por ley."},
+        {"termino": "Extinción de la acción penal", "definicion": "Causales que hacen cesar la potestad punitiva del Estado: prescripción, muerte, amnistía, entre otras."},
+        {"termino": "Punitivismo", "definicion": "Tendencia a responder a conflictos sociales mediante la expansión del derecho penal."}
+      ]
+    },
+    {
+      "id": 3,
+      "titulo": "Las salidas alternativas al procedimiento ordinario",
+      "objetivos": [
+        "Comprender los procedimientos especiales previstos para descongestionar el nivel de litigiosidad penal.",
+        "Descifrar el origen del problema: ¿es normativo o de gestión?",
+        "Fortalecer la visión político-criminal que propicia modelos compositivos y el criterio de oportunidad reglado."
+      ],
+      "lectura": "Las salidas alternativas (procedimiento abreviado, suspensión condicional del procedimiento, criterio de oportunidad, conciliación) buscan evitar la sobrecarga del sistema mediante instrumentos procesales alternativos al juicio oral ordinario. Sin embargo, la práctica judicial revela una subutilización de estas herramientas. El análisis crítico exige distinguir si dicha subutilización proviene de un déficit normativo (falta de reglamentación clara) o de un problema de gestión judicial y fiscal (desconocimiento, resistencia cultural, ausencia de protocolos). Fortalecer la visión político-criminal implica priorizar modelos compositivos (que buscan reparar el conflicto) frente al modelo puramente retributivo.",
+      "terminos": [
+        {"termino": "Procedimiento abreviado", "definicion": "Mecanismo que permite resolver la causa sin juicio oral pleno, mediante acuerdo entre las partes."},
+        {"termino": "Suspensión condicional del procedimiento", "definicion": "Suspende el proceso sujeto a condiciones, con posibilidad de extinción de la acción si se cumplen."},
+        {"termino": "Modelo compositivo", "definicion": "Enfoque que privilegia la reparación del conflicto sobre la sanción retributiva."}
+      ]
+    },
+    {
+      "id": 4,
+      "titulo": "Los órganos estatales de intervención obligatoria en el proceso penal. Poder de disciplina de los jueces",
+      "objetivos": [
+        "Fortalecer el conocimiento y competencias de los principales órganos estatales que intervienen en el proceso penal.",
+        "Determinar con precisión los respectivos roles en consonancia con las líneas ideológicas constitucionales y convencionales.",
+        "Distinguir los límites entre jurisdicción, competencia e investigación."
+      ],
+      "lectura": "El proceso penal exige la intervención obligatoria de órganos estatales diferenciados: el Ministerio Público (investigación y acusación), el Poder Judicial (jurisdicción y control de garantías) y, en su caso, la Policía Nacional (auxiliar de la investigación bajo dirección fiscal). La correcta comprensión de sus roles exige distinguir jurisdicción (potestad de juzgar), competencia (límite material, territorial o funcional de esa potestad) e investigación (función persecutoria, ajena a la función jurisdiccional). El poder disciplinario de los jueces se vincula al control de la conducta en el desarrollo de las audiencias y la garantía del debido proceso, sin invadir la esfera del sistema acusatorio que separa investigar de juzgar.",
+      "terminos": [
+        {"termino": "Jurisdicción", "definicion": "Potestad estatal de juzgar y hacer ejecutar lo juzgado."},
+        {"termino": "Competencia", "definicion": "Límite legal (material, territorial o funcional) dentro del cual un órgano ejerce jurisdicción."},
+        {"termino": "Ministerio Público", "definicion": "Órgano encargado de dirigir la investigación penal y ejercer la acción penal pública."}
+      ]
+    },
+    {
+      "id": 5,
+      "titulo": "La víctima y el imputado en el sistema penal",
+      "objetivos": [
+        "Conocer el tratamiento que brinda la legislación penal a los sujetos procesales involucrados en el hecho delictivo.",
+        "Analizar las nuevas concepciones constitucionales y legales sobre víctima e imputado.",
+        "Señalar los principales inconvenientes entre teoría y praxis."
+      ],
+      "lectura": "El sistema penal moderno reconoce a la víctima como sujeto procesal con derechos propios (información, participación, reparación), superando el rol pasivo que tenía en el modelo inquisitivo clásico. Simultáneamente, el imputado conserva todas las garantías del debido proceso, incluyendo el derecho de defensa técnica y material, y el derecho a no autoincriminarse. La tensión práctica surge cuando el fortalecimiento de los derechos de la víctima se invoca para limitar garantías del imputado, lo que contradice el diseño constitucional. Detectar esa discrepancia entre la teoría garantista y la praxis judicial es central para esta unidad.",
+      "terminos": [
+        {"termino": "Víctima", "definicion": "Sujeto procesal directamente ofendido por el hecho punible, con derecho a intervenir en el proceso."},
+        {"termino": "Imputado", "definicion": "Persona a quien se atribuye participación en un hecho punible, sujeto de derechos y garantías."},
+        {"termino": "Defensa material", "definicion": "Derecho del propio imputado a defenderse personalmente en el proceso."}
+      ]
+    },
+    {
+      "id": 6,
+      "titulo": "Actos procesales y nulidades en el proceso penal",
+      "objetivos": [
+        "Señalar las principales discrepancias entre teoría y praxis.",
+        "Descifrar si el problema de las nulidades es con la norma o con la formación de los operadores."
+      ],
+      "lectura": "Los actos procesales son las manifestaciones formales mediante las cuales se desarrolla el proceso penal (notificaciones, resoluciones, audiencias, actas). Cuando estos actos incumplen requisitos esenciales, pueden ser declarados nulos, distinguiéndose nulidades absolutas (afectan garantías fundamentales, insanables) de las relativas (subsanables, convalidables). La práctica judicial muestra un uso frecuentemente errático del régimen de nulidades, lo que exige preguntarse si el problema radica en una regulación deficiente del CPP o en la falta de formación técnica de los operadores para argumentar correctamente los vicios procesales.",
+      "terminos": [
+        {"termino": "Nulidad absoluta", "definicion": "Vicio que afecta garantías fundamentales y no admite convalidación."},
+        {"termino": "Nulidad relativa", "definicion": "Vicio subsanable que puede convalidarse si no se plantea oportunamente."},
+        {"termino": "Acto procesal", "definicion": "Manifestación formal que impulsa o documenta el desarrollo del proceso."}
+      ]
+    },
+    {
+      "id": 7,
+      "titulo": "Las medidas cautelares",
+      "objetivos": [
+        "Señalar las principales discrepancias entre teoría y praxis en la aplicación de medidas cautelares.",
+        "Descifrar si el problema es con la norma o con la forma en que fueron formados los operadores."
+      ],
+      "lectura": "Las medidas cautelares (prisión preventiva, arresto domiciliario, medidas sustitutivas) son instrumentos excepcionales destinados a asegurar los fines del proceso (comparecencia del imputado, integridad de la prueba), nunca a anticipar la pena. La doctrina exige que su aplicación respete los principios de excepcionalidad, proporcionalidad y necesidad. La práctica forense, sin embargo, revela un uso extendido de la prisión preventiva como regla y no como excepción, lo que contradice la presunción de inocencia. Analizar si esta distorsión proviene de vacíos normativos o de una formación deficiente de fiscales y jueces es el eje central de la unidad.",
+      "terminos": [
+        {"termino": "Prisión preventiva", "definicion": "Medida cautelar de carácter excepcional que restringe la libertad del imputado durante el proceso."},
+        {"termino": "Proporcionalidad", "definicion": "Principio que exige que la medida cautelar sea adecuada y no exceda lo estrictamente necesario."},
+        {"termino": "Medidas sustitutivas", "definicion": "Alternativas menos gravosas a la prisión preventiva, como el arresto domiciliario o la cación."}
+      ]
+    },
+    {
+      "id": 8,
+      "titulo": "Medios de prueba en el proceso penal",
+      "objetivos": [
+        "Fortalecer el conocimiento de la adquisición de la prueba en un proceso penal republicano y democrático.",
+        "Diferenciar dicho modelo del proceso ritualista propio del modelo inquisitivo.",
+        "Comprender el rol del imputado como contralor de la prueba."
+      ],
+      "lectura": "En el modelo acusatorio, la prueba se produce y controla en el juicio oral, bajo los principios de contradicción, publicidad e inmediación, a diferencia del modelo inquisitivo donde la prueba se recolectaba de forma ritualista y unilateral durante la instrucción escrita. El imputado, lejos de ser un mero objeto de investigación, se erige como contralor activo de la prueba: puede impugnar la producida por la fiscalía, ofrecer prueba de descargo y participar en su producción. Esta unidad profundiza en los medios de prueba (testimonial, documental, pericial, indiciaria) y su valoración conforme a la sana crítica racional.",
+      "terminos": [
+        {"termino": "Sana crítica racional", "definicion": "Sistema de valoración de la prueba basado en la lógica, la experiencia y la psicología, sin tarifas legales previas."},
+        {"termino": "Contradicción", "definicion": "Principio que garantiza a ambas partes la posibilidad de conocer y refutar la prueba de la contraria."},
+        {"termino": "Prueba indiciaria", "definicion": "Prueba que permite inferir un hecho a partir de indicios concordantes, sin evidencia directa."}
+      ]
+    }
+  ]
+}
