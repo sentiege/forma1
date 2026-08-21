@@ -36,6 +36,7 @@ loadJSON('assets/data/contenido.json').then(data=>{
   const u = data.unidades.find(x=>x.id===id);
   if(!u){ document.getElementById('contenido-unidad').innerHTML = '<p>Unidad no encontrada.</p>'; return; }
   const p = u.profundizacion || {};
+  const c = u.caso_practico || {};
   document.getElementById('contenido-unidad').innerHTML = `
     <span class="badge">Unidad ${u.id}</span>
     <h2>${u.titulo}</h2>
@@ -51,6 +52,7 @@ loadJSON('assets/data/contenido.json').then(data=>{
     ${p.doctrina ? `<div class="card"><h3>Doctrina</h3><p>${p.doctrina}</p></div>` : ''}
     ${p.jurisprudencia ? `<div class="card"><h3>Jurisprudencia</h3><p>${p.jurisprudencia}</p></div>` : ''}
     ${p.problematica ? `<div class="card"><h3>Problemática teoría vs. praxis</h3><p>${p.problematica}</p></div>` : ''}
+    ${c.hechos ? `<div class="card unidad-card"><h3>🧭 Caso práctico real</h3><p><strong>Hechos:</strong> ${c.hechos}</p><p><strong>Resolución:</strong> ${c.resolucion}</p><p><strong>Pregunta guía:</strong> ${c.pregunta_guia}</p></div>` : ''}
     <div class="card">
       <h3>Términos clave</h3>
       <ul>${u.terminos.map(t=>`<li><strong>${t.termino}:</strong> ${t.definicion}</li>`).join('')}</ul>
