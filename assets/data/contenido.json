@@ -50,6 +50,11 @@
         "jurisprudencia": "La Sala Penal de la Corte Suprema de Justicia, en el Acuerdo y Sentencia N° 64/2019, precisó que el debido proceso lleva implícitos 'derechos filiales' -el derecho a la defensa, la igualdad de armas, la contradicción, la publicidad, la celeridad y la presunción de inocencia- y que la vulneración de cualquiera de ellos puede configurar una afectación al debido proceso susceptible de nulidad.",
         "problematica": "La discrepancia entre teoría y praxis se manifiesta cuando jueces y fiscales invocan el debido proceso de manera retórica en las resoluciones, pero en la práctica cotidiana toleran dilaciones injustificadas, notificaciones defectuosas o restricciones de la defensa que, analizadas con rigor, vulneran exactamente esas garantías que se dicen proteger. El desafío formativo es cerrar esa brecha mediante el control efectivo, no meramente declarativo, del bloque de constitucionalidad procesal."
       },
+      "caso_practico": {
+        "hechos": "Un imputado es citado a audiencia preliminar mediante notificación entregada a un vecino, sin dejar aviso en el domicilio real ni constancia de intento previo. El imputado no comparece y el juez continúa el acto sin su presencia, fundando la resolución únicamente en la versión fiscal.",
+        "resolucion": "En casos análogos, la Sala Penal ha anulado actuaciones posteriores a notificaciones defectuosas, señalando que la garantía de defensa (art. 1 y 12 CPP, art. 17 CN) exige certeza razonable de que el imputado conoció el acto antes de continuar el procedimiento sin su presencia.",
+        "pregunta_guia": "¿Qué artículos del bloque 1-13 del CPP se ven comprometidos por una notificación defectuosa, y qué remedio procesal correspondería plantear?"
+      },
       "terminos": [
         {"termino": "Debido proceso penal", "definicion": "Conjunto de garantías mínimas que aseguran un juicio justo, previo, público y con derecho de defensa."},
         {"termino": "Juicio previo", "definicion": "Nadie puede ser condenado sin un juicio previo fundado en ley anterior al hecho del proceso (art. 1 CPP)."},
@@ -71,6 +76,11 @@
         "doctrina": "Binder distingue entre modelos 'garantistas' y 'eficientistas' de política criminal: el primero prioriza la limitación del poder punitivo aun a costa de cierta impunidad selectiva vía criterios de oportunidad; el segundo prioriza la persecución exhaustiva de todo hecho punible. El CPP paraguayo, al consagrar la legalidad procesal como regla y la oportunidad como excepción reglada, adopta una postura intermedia que exige del operador un juicio de ponderación caso por caso.",
         "jurisprudencia": "No existe una sola postura jurisprudencial unívoca sobre los límites del criterio de oportunidad, pero los tribunales han insistido en que su aplicación debe ser excepcional, fundada y con consentimiento del tribunal, evitando que se convierta en una vía de facto para la impunidad selectiva de casos de alto perfil, fenómeno que se vincula directamente con las denuncias de 'guerra jurídica'.",
         "problematica": "El punitivismo y la guerra jurídica comparten un mismo síntoma: la instrumentalización del proceso penal para fines ajenos a la resolución justa del conflicto -ya sea la sobrecriminalización de conductas de escasa lesividad, ya sea la persecución selectiva con fines políticos. Identificar estos fenómenos exige distinguir cuándo el ejercicio de la acción penal responde a criterios técnico-jurídicos y cuándo responde a presiones mediáticas o políticas ajenas al mérito de la causa."
+      },
+      "caso_practico": {
+        "hechos": "Un fiscal recibe una denuncia por hurto de un objeto de escaso valor económico, cometido por una persona sin antecedentes penales que además ya restituyó el bien a la víctima antes de la audiencia.",
+        "resolucion": "Conforme al art. 19 del CPP, el fiscal puede solicitar la aplicación del criterio de oportunidad por insignificancia del hecho, con consentimiento del tribunal, prescindiendo de la persecución penal en lugar de promover un juicio oral por un hecho de mínima lesividad.",
+        "pregunta_guia": "¿En qué se diferencia esta solución de una amnistía o de la extinción por prescripción? ¿Qué riesgos existen si el criterio de oportunidad se aplica sin control judicial adecuado?"
       },
       "terminos": [
         {"termino": "Acción penal pública", "definicion": "Ejercida de oficio por el Ministerio Público en representación del Estado (art. 14 CPP)."},
@@ -94,6 +104,11 @@
         "jurisprudencia": "El Acuerdo y Sentencia N° 685 del 28/05/2016 de la Sala Penal de la Corte Suprema de Justicia confirmó que el procedimiento abreviado es una alternativa válida al juicio oral y público conforme a los arts. 420 y 421 del CPP, y que la admisión de los hechos por el imputado no exime al tribunal de evaluar la suficiencia probatoria antes de condenar.",
         "problematica": "La subutilización de estas salidas alternativas puede deberse a una cultura litigiosa que percibe el acuerdo como 'debilidad' fiscal, a la falta de protocolos claros de negociación, o a un diseño normativo que no incentiva suficientemente su uso frente al juicio ordinario. Distinguir estas causas es clave para diseñar políticas de gestión judicial que fortalezcan el modelo compositivo sin sacrificar garantías."
       },
+      "caso_practico": {
+        "hechos": "Un imputado acusado de un hecho con pena máxima de tres años admite ante el fiscal su participación en los hechos y, junto a su defensor, solicita la aplicación del procedimiento abreviado antes de la audiencia preliminar.",
+        "resolucion": "El Acuerdo y Sentencia N° 685 del 28/05/2016 de la Sala Penal de la Corte Suprema confirmó que, aun admitidos los hechos, el juez debe evaluar la suficiencia de la prueba reunida por la fiscalía antes de dictar condena; la sola admisión no lo vincula automáticamente a condenar.",
+        "pregunta_guia": "¿Qué diferencia sustancial existe entre el procedimiento abreviado paraguayo y el 'plea bargaining' anglosajón, según esta resolución?"
+      },
       "terminos": [
         {"termino": "Procedimiento abreviado", "definicion": "Mecanismo (arts. 420-421 CPP) que permite resolver la causa sin juicio oral pleno, mediante admisión del hecho y acuerdo entre las partes."},
         {"termino": "Suspensión condicional del procedimiento", "definicion": "Suspende el proceso sujeto a condiciones, con posibilidad de extinción de la acción si se cumplen."},
@@ -114,6 +129,11 @@
         "doctrina": "La doctrina procesal distingue tres planos que suelen confundirse en la práctica: la jurisdicción (potestad abstracta de juzgar, que corresponde a todo juez penal), la competencia (el fragmento concreto de esa potestad que la ley asigna a un juzgado determinado) y la investigación (función persecutoria que, en el sistema acusatorio, queda reservada exclusivamente al Ministerio Público, nunca al juez).",
         "jurisprudencia": "Los tribunales de alzada han reiterado que la incompetencia territorial o material debe plantearse en las etapas procesales oportunas, bajo pena de convalidación, y que la intervención de un juez incompetente en actos de investigación no necesariamente acarrea nulidad si no lesiona garantías del imputado, conforme a la regla general de las nulidades relativas.",
         "problematica": "La confusión práctica entre jurisdicción, competencia e investigación se manifiesta cuando jueces de garantías asumen funciones investigativas de facto (por ejemplo, sugiriendo líneas de indagación al fiscal) o cuando fiscales pretenden ejercer funciones jurisdiccionales al calificar anticipadamente la prueba. Ambas desviaciones erosionan la separación de roles que sostiene al modelo acusatorio."
+      },
+      "caso_practico": {
+        "hechos": "Un juez de garantías de una circunscripción judicial recibe una causa cuyo hecho ocurrió en otra circunscripción, y en lugar de remitirla al juez competente, dicta él mismo medidas cautelares y avanza con la investigación.",
+        "resolucion": "Los tribunales de alzada han señalado que la incompetencia territorial debe plantearse en el momento procesal oportuno; sin embargo, si el vicio no lesiona garantías del imputado, puede convalidarse. El problema de fondo es que el juez de garantías no debe sustituir funciones investigativas propias del Ministerio Público.",
+        "pregunta_guia": "¿Qué distingue en este caso la falta de competencia territorial de una posible invasión de la función investigativa por parte del juez?"
       },
       "terminos": [
         {"termino": "Jurisdicción", "definicion": "Potestad estatal de juzgar y hacer ejecutar lo juzgado."},
@@ -136,6 +156,11 @@
         "jurisprudencia": "Los tribunales han reconocido reiteradamente el derecho de la víctima a ser escuchada antes de la extinción o suspensión de la acción penal (art. 68 inc. 4 CPP) como requisito de validez de esas decisiones, mientras que simultáneamente exigen que la incorporación de la víctima al proceso no vulnere el derecho de defensa del imputado a contradecir toda prueba o alegación.",
         "problematica": "La tensión práctica se agudiza en casos mediáticos, donde la presión social a favor de la víctima puede traducirse en jueces que restringen plazos de defensa o admiten prueba de dudosa fiabilidad para 'compensar' el sufrimiento de la víctima, desnaturalizando el diseño constitucional que exige neutralidad judicial frente a ambos sujetos procesales."
       },
+      "caso_practico": {
+        "hechos": "En un proceso por hecho punible contra la integridad de una persona, el fiscal solicita la suspensión condicional del procedimiento sin haber convocado previamente a la víctima para escuchar su posición, pese a que ella había manifestado interés en intervenir.",
+        "resolucion": "Conforme al art. 68 inc. 4 del CPP, la víctima tiene derecho a ser escuchada antes de toda decisión que implique la suspensión o extinción de la acción penal; omitir esa instancia puede viciar la validez de la resolución que homologa la suspensión.",
+        "pregunta_guia": "¿Qué recurso podría interponer la víctima si el tribunal homologa la suspensión sin haberla escuchado? ¿Esto vulnera también algún derecho del imputado?"
+      },
       "terminos": [
         {"termino": "Víctima", "definicion": "Sujeto procesal (art. 68 CPP) directamente ofendido por el hecho punible, con derecho a intervenir en el proceso."},
         {"termino": "Imputado", "definicion": "Persona (art. 75 CPP) a quien se atribuye participación en un hecho punible, sujeto de derechos y garantías."},
@@ -155,6 +180,11 @@
         "doctrina": "Juan Marcelino González Garcete, en 'El Régimen Legal de las Nulidades en el Proceso Penal', explica que serán consideradas nulidades absolutas aquellas concernientes a la intervención, asistencia y representación del imputado, o las que impliquen inobservancia de derechos y garantías previstos en la Constitución y el derecho internacional, mientras que el resto de los vicios procesales, incluso siendo defectos relevantes, quedan sujetos a la regla de la convalidación.",
         "jurisprudencia": "El Acuerdo y Sentencia N° 64/2019 de la Sala Penal calificó como nulidad absoluta -por vulnerar el principio del plazo razonable y el debido proceso- la presentación extemporánea de una acusación, señalando expresamente que en ese supuesto 'es innecesaria la convalidación'. En sentido complementario, otros fallos reiteran que el recurso de nulidad no es eficaz para impugnar irregularidades procesales sin que la parte recurrente haya sufrido un perjuicio concreto derivado del vicio.",
         "problematica": "El uso errático del régimen se observa en dos direcciones opuestas: defensores que invocan nulidad absoluta ante cualquier defecto formal menor sin acreditar perjuicio real, y jueces que exigen convalidación previa incluso frente a vulneraciones evidentes de garantías constitucionales. Ambas desviaciones reflejan una comprensión insuficiente de la arquitectura excepcional que el CPP paraguayo reserva a la categoría de nulidad insanable."
+      },
+      "caso_practico": {
+        "hechos": "El Ministerio Público presenta la acusación formal fuera del plazo procesal establecido, y el juez de garantías admite el escrito sin advertir la extemporaneidad ni correr traslado a la defensa sobre este punto.",
+        "resolucion": "El Acuerdo y Sentencia N° 64/2019 de la Sala Penal calificó como nulidad absoluta la presentación extemporánea de una acusación, por vulnerar el principio de plazo razonable y el debido proceso, señalando que en ese supuesto 'es innecesaria la convalidación' previa.",
+        "pregunta_guia": "¿Por qué este vicio se clasifica como insanable y no como una simple nulidad relativa sujeta a convalidación, según la regla general del CPP paraguayo?"
       },
       "terminos": [
         {"termino": "Nulidad absoluta", "definicion": "En el sistema paraguayo, vicio que lesiona una garantía constitucional; no admite convalidación y puede declararse de oficio (art. 12 CPP)."},
@@ -176,6 +206,11 @@
         "jurisprudencia": "La Corte Suprema de Justicia del Paraguay, en el Acuerdo y Sentencia N° 628 del 5 de octubre de 2001, sostuvo que 'la privación de libertad en la prisión preventiva sólo puede tener carácter cautelar'. Más recientemente, en un caso de 2023 (Acuerdo y Sentencia N° 155), la Sala Penal debió resolver un hábeas corpus por exceso de la duración máxima de la prisión preventiva vinculada a la pena mínima del hecho punible, reafirmando los límites temporales de la medida.",
         "problematica": "La Acordada N° 1511/21 reconoce expresamente que los jueces deben aplicar la prisión preventiva 'como tal y no como una pena anticipada', lo cual sugiere que la propia Corte Suprema identificó una práctica generalizada contraria a este principio. El uso extendido de la prisión preventiva como respuesta por defecto -antes que como excepción fundada en los tres requisitos del art. 242- constituye precisamente el nudo crítico que esta unidad busca desentrañar: ¿es un problema de insuficiencia normativa o de resistencia cultural de los operadores a aplicar el estándar garantista?"
       },
+      "caso_practico": {
+        "hechos": "Un imputado por un hecho punible de mediana gravedad permanece en prisión preventiva durante un plazo que excede la pena mínima prevista para ese hecho, sin que el tribunal haya revisado periódicamente la vigencia de los requisitos del art. 242 del CPP.",
+        "resolucion": "En un caso de 2023 (Acuerdo y Sentencia N° 155), la Sala Penal resolvió un hábeas corpus por exceso de la duración máxima de la prisión preventiva, reafirmando los límites temporales de la medida y advirtiendo que la Acordada N° 1511/21 exige aplicarla 'como tal y no como una pena anticipada'.",
+        "pregunta_guia": "¿Qué mecanismos procesales tiene la defensa para solicitar la revisión de una prisión preventiva prolongada sin que se reevalúen los requisitos del art. 242?"
+      },
       "terminos": [
         {"termino": "Prisión preventiva", "definicion": "Medida cautelar excepcional (art. 242 CPP) que restringe la libertad del imputado durante el proceso, sujeta a tres requisitos concurrentes."},
         {"termino": "Proporcionalidad", "definicion": "Principio que exige que la medida cautelar (art. 234 CPP) sea adecuada y no exceda lo estrictamente necesario."},
@@ -196,6 +231,11 @@
         "doctrina": "La doctrina procesal paraguaya (Stanley, entre otros) identifica a la sana crítica como el eje que determina todo el sistema probatorio: a diferencia de la prueba legal o tasada -donde la ley predetermina el valor de cada medio- y de la íntima convicción sin motivación, la sana crítica exige que el juzgador exprese, en su resolución, las razones lógicas, científicas y de experiencia que sustentan la conclusión probatoria, haciendo posible su control en instancias superiores.",
         "jurisprudencia": "Los tribunales han precisado que, en virtud del principio de libertad probatoria (art. 173 CPP), un hecho nuevo puede probarse por cualquier medio permitido por la ley, incluso reutilizando un elemento de prueba ya incorporado al proceso para otro fin, siempre que se respete la contradicción y el derecho de la defensa a conocerlo con antelación suficiente.",
         "problematica": "El riesgo práctico de la libertad probatoria es que se confunda con ausencia de estándares: sin la exigencia de motivación conforme a la sana crítica, los jueces podrían admitir y valorar prueba de manera arbitraria bajo la apariencia de 'flexibilidad'. El correcto ejercicio del rol del imputado como contralor de la prueba exige, precisamente, que pueda impugnar no solo la admisión de un medio probatorio, sino también la insuficiencia de la motivación con que el tribunal valoró su fuerza de convicción."
+      },
+      "caso_practico": {
+        "hechos": "Durante el juicio oral, la defensa pretende introducir un hecho nuevo relevante para su teoría del caso, reutilizando un elemento de prueba ya incorporado al proceso para otro fin, sin haberlo anunciado con antelación a la fiscalía.",
+        "resolucion": "Los tribunales han precisado que, en virtud del principio de libertad probatoria (art. 173 CPP), un hecho nuevo puede probarse por cualquier medio permitido por la ley, incluso reutilizando prueba ya incorporada, siempre que se respete la contradicción y el derecho de la contraparte a conocerlo con antelación suficiente.",
+        "pregunta_guia": "¿Qué diferencia hay entre 'libertad probatoria' y 'ausencia de contradicción'? ¿Por qué el anuncio previo a la contraparte es indispensable aun bajo este principio?"
       },
       "terminos": [
         {"termino": "Sana crítica racional", "definicion": "Sistema de valoración de la prueba (art. 175 CPP) basado en la lógica, la ciencia y la experiencia, sin tarifas legales previas."},
